@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07fcfbef177d41a49a9a599ef2f83fdb, type: 3}
+  m_Name: PlefnutsArmorDatabase
+  m_EditorClassIdentifier: 
+  database:
+  - _name: iron breastplate
+    _value: 5
+    _inventorySprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+    _weight: 6
+    _quality:
+      _name: common
+      _icon: {fileID: 0}
+    _level: 1
+    _stackable: 0
+    _durability: 0
+    _maxDurability: 15
+    _gameObject: {fileID: 0}
+    _armorRating: 10
+    _armorType:
+      _name: Plate
+    _armorLocation:
+      _name: chest
+  - _name: chainlink pauldrons
+    _value: 8
+    _inventorySprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+    _weight: 9
+    _quality:
+      _name: common
+      _icon: {fileID: 0}
+    _level: 1
+    _stackable: 0
+    _durability: 0
+    _maxDurability: 9
+    _gameObject: {fileID: 0}
+    _armorRating: 12
+    _armorType:
+      _name: Chain
+    _armorLocation:
+      _name: shoulders
